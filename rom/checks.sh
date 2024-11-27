@@ -29,7 +29,7 @@ echo ""
 msg2 "Cek Keamanan"
 AUTHOR=$(cd $CIRRUS_WORKING_DIR && git log --pretty=format:'%an' -1)
 msg3 $AUTHOR
-if [[ $AUTHOR == NFSDev™ ]]; then
+if [[ $AUTHOR == AnGgIt86 ]]; then
     echo "==============================="
     msg OK
     echo "==============================="
